@@ -1,0 +1,27 @@
+footer{
+    background-color:  rgb(3, 33, 87);
+
+}
+.nonprofit_text{
+    width: 450px;
+}
+
+.nonprofit_text h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    color: azure;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nonprofit_text h1 span a{
+    color: azure;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+footer p{
+    padding-top: 100px;
+    padding-left: 20px;
+    color: azure;
+    font-size:small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida';
+}

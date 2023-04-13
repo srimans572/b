@@ -1,0 +1,55 @@
+.project_body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(3, 33, 87);;
+}
+.project_body_text{
+    align-self: center;
+    width: 70%;
+}
+.project_body_text h1{
+    margin-top: 60px;
+    font-size:5.5rem;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.project_body_text p{
+    margin-top: 60px;
+    font-size:2rem;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.formbody{
+    width: 70%;
+    background-color: whitesmoke;
+    height: auto;
+    align-self: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -5px #000000;;
+    margin-bottom: 30px;
+}
+.formbody h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 100px 0px;
+    font-size: 3rem;
+}
+@media only screen and (max-width: 1200px) {
+    .formbody{
+        width: 95%;
+    }
+    .formbody iframe{
+        width: 100%
+    }
+}

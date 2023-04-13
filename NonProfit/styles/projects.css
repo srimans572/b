@@ -1,0 +1,122 @@
+.projects_container{
+    width: auto;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+
+}
+
+.projectbox{
+    height: 550px;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 15px -5px #000000;
+    display: inline-block;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding: 20px 20px;
+}
+.title{
+    display: block;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.title p{
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    background-color: #0c267a;
+    display: block;
+    height: 420px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+.description{
+    background-color:white;
+    height: auto;
+    width: 230px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.tags{
+    height: 400px;
+    width: 110px;
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tag{
+    width: 5.9rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: calc(2.5rem/2);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag p{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tags_cs{
+    color:black;
+    background-color: whitesmoke;
+}
+#tags_medium{
+    background-color: rgb(244, 244, 139);
+}
+#tags_hard{
+    background-color: rgb(254, 145, 145);
+}
+#tags_info{
+
+}
+@media only screen and (max-width: 900px) {
+    .projects_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectbox{
+        height: 550px;
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    .description{
+        width: fit-content;
+        height: 800px;
+        margin-bottom: -100px;
+    }
+    .tags{
+        margin-top: 100px;
+        height: 200px;
+        width: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+     
+}

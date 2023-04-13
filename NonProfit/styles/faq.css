@@ -1,0 +1,92 @@
+#faq_header{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.faq{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.di{
+    width: 600px;
+    display: inline;
+}
+.collapsible {
+    background-color: rgb(3, 33, 87);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 600px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .collapsible:hover{
+    background-color: darkblue;
+  }
+  .collapsible:hover + .content {
+    background-color: #212d79;
+    display: block;
+    opacity: 100;
+
+
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    border-radius: 20px;
+    padding: 1px 18px;
+    /*max-height: 0;*/
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color:  rgb(3, 33, 87);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: none;
+    opacity: 0;
+  }
+  .content p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .collapsible{
+      font-size: 1.2rem;
+      width: 100vw;
+    }
+    .content{
+      padding: 0px 18px 0px 18px;
+      font-size: 1.2rem;
+    }
+}
